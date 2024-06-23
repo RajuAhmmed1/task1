@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: azure;
+}
+h3 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: large;
+}
+.nav-first {
+  max-width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 16px;
+  background-color: black;
+  margin: 50px auto;
+}
+.nav-first-ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  margin-right: 60px;
+}
+
+.nav-first-ul a {
+  text-decoration: none;
+  color: #ffff;
+}
+.contact-button {
+  background-color: #1588c1;
+  border-radius: 20px;
+  padding: 10px 35px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-second {
+  max-width: 80%;
+  font-size: 16px;
+  background-color: black;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-second-ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  margin-left: 28%;
+  justify-content: center;
+}
+
+.last-child {
+  display: flex;
+  margin-left: 12%;
+}
+.last-child ul {
+  list-style: none;
+}
+
+.nav-second-ul a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.nav-third {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background-color: black;
+  margin: 50px auto;
+}
+.nav-third-ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  margin-left: 60px;
+}
+
+.nav-third-ul a {
+  text-decoration: none;
+  color: #ffff;
+}
